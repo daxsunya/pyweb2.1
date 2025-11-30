@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install mini-ssg
 
-      - name: Build site
-        run: npm run start
+      - name: Build site with mini-ssg
+        run: npx mini-ssg build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
