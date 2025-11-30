@@ -5,9 +5,5 @@
   "scripts": {
     "build": "minissg",
     "dev": "minissg --watch"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.1",
-    "mini-ssg": "^1.0.0"
   }
 }
