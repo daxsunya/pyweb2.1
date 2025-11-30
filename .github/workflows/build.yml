@@ -1,4 +1,4 @@
-name: Build and Deploy MkDocs
+name: Build and Deploy site
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         run: npm install mini-ssg
 
       - name: Build site
-        run: npm run dev
+        run: npm run start
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
